@@ -40,6 +40,10 @@ func Uint64(v uint64) *uint64 {
 	return &v
 }
 
+func UintPtr(v uintptr) *uintptr {
+	return &v
+}
+
 func Float32(v float32) *float32 {
 	return &v
 }
@@ -52,6 +56,22 @@ func String(v string) *string {
 	return &v
 }
 
+func Rune(v rune) *rune {
+	return &v
+}
+
 func Bool(v bool) *bool {
+	return &v
+}
+
+func Byte(v byte) *byte {
+	return &v
+}
+
+func Complex64(v complex64) *complex64 {
+	return &v
+}
+
+func Complex128(v complex128) *complex128 {
 	return &v
 }
