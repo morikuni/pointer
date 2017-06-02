@@ -17,7 +17,7 @@ import (
 func main() {
 	var i *int = pointer.Int(1)
 	var u *uint8 = pointer.Uint8(2)
-	var p *uintptr = pointer.UintPtr(0xabcdef)
+	var p *uintptr = pointer.Uintptr(0xabcdef)
 	var f *float64 = pointer.Float64(3.14)
 	var s *string = pointer.String("hello")
 	var r *rune = pointer.Rune('a')

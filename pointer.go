@@ -40,7 +40,7 @@ func Uint64(v uint64) *uint64 {
 	return &v
 }
 
-func UintPtr(v uintptr) *uintptr {
+func Uintptr(v uintptr) *uintptr {
 	return &v
 }
 
